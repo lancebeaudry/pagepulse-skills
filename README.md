@@ -9,8 +9,10 @@ Most SEO tools grade a snapshot. Page Pulse records what changed on a page and w
 | Skill | What it does |
 | --- | --- |
 | [change-autopsy](change-autopsy/) | Tells you whether a change to a page helped, hurt, or did nothing, with the evidence, then recommends keep, iterate, or revert. |
+| [competitor-watch](competitor-watch/) | Watches competitor pages for real changes, alerts you by email or Slack, and summarizes what they changed so you can respond. |
+| [geo-measurement-loop](geo-measurement-loop/) | Measures whether content you optimized for AI answers and AI Overviews actually moved your search outcomes. |
 
-More are on the way: traffic-drop diagnosis, a pre-deploy SEO guard, competitor page watch with email and Slack alerts, GEO citation measurement, and data-grounded content briefs.
+More are on the way: traffic-drop diagnosis, a pre-deploy SEO guard, and data-grounded content briefs.
 
 ## Requirements
 
@@ -25,6 +27,8 @@ In a Claude Code session:
 ```
 /plugin marketplace add lancebeaudry/pagepulse-skills
 /plugin install change-autopsy@pagepulse-skills
+/plugin install competitor-watch@pagepulse-skills
+/plugin install geo-measurement-loop@pagepulse-skills
 ```
 
 ### Option B: copy the skill folder

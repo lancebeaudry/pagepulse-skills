@@ -9,6 +9,16 @@
       "name": "change-autopsy",
       "source": "./change-autopsy",
       "description": "Measure whether a page change helped, hurt, or did nothing, using Page Pulse change tracking with Search Console and GA4 outcomes."
+    },
+    {
+      "name": "competitor-watch",
+      "source": "./competitor-watch",
+      "description": "Watch competitor pages for real changes, get alerted by email or Slack, and summarize what competitors changed so you can respond."
+    },
+    {
+      "name": "geo-measurement-loop",
+      "source": "./geo-measurement-loop",
+      "description": "Measure whether content optimized for AI answers and AI Overviews actually moved your search outcomes, using Page Pulse change tracking with Search Console."
     }
   ]
 }
