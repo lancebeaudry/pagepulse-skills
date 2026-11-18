@@ -1,0 +1,14 @@
+{
+  "name": "pagepulse-skills",
+  "description": "Page Pulse SEO skills for Claude: measure and act on real page-change data.",
+  "owner": {
+    "name": "Lance Beaudry"
+  },
+  "plugins": [
+    {
+      "name": "change-autopsy",
+      "source": "./change-autopsy",
+      "description": "Measure whether a page change helped, hurt, or did nothing, using Page Pulse change tracking with Search Console and GA4 outcomes."
+    }
+  ]
+}
