@@ -11,8 +11,10 @@ Most SEO tools grade a snapshot. Page Pulse records what changed on a page and w
 | [change-autopsy](change-autopsy/) | Tells you whether a change to a page helped, hurt, or did nothing, with the evidence, then recommends keep, iterate, or revert. |
 | [competitor-watch](competitor-watch/) | Watches competitor pages for real changes, alerts you by email or Slack, and summarizes what they changed so you can respond. |
 | [geo-measurement-loop](geo-measurement-loop/) | Measures whether content you optimized for AI answers and AI Overviews actually moved your search outcomes. |
-
-More are on the way: traffic-drop diagnosis, a pre-deploy SEO guard, and data-grounded content briefs.
+| [traffic-drop-detective](traffic-drop-detective/) | Diagnoses why a page lost traffic, separating a change you made from an external cause, then tells you to revert, fix, or wait. |
+| [pre-deploy-seo-guard](pre-deploy-seo-guard/) | Checks what a page is already winning before you ship an edit, so you don't overwrite a ranking page — with the safeguard spelled out. |
+| [quick-win-finder](quick-win-finder/) | Finds the handful of highest-leverage SEO moves available right now — striking-distance queries, CTR gaps, recoverable slips. |
+| [content-brief](content-brief/) | Builds a writer-ready content brief grounded in a page's real Search Console query data, not guessed keywords. |
 
 ## Requirements
 
@@ -29,6 +31,10 @@ In a Claude Code session:
 /plugin install change-autopsy@pagepulse-skills
 /plugin install competitor-watch@pagepulse-skills
 /plugin install geo-measurement-loop@pagepulse-skills
+/plugin install traffic-drop-detective@pagepulse-skills
+/plugin install pre-deploy-seo-guard@pagepulse-skills
+/plugin install quick-win-finder@pagepulse-skills
+/plugin install content-brief@pagepulse-skills
 ```
 
 ### Option B: copy the skill folder
